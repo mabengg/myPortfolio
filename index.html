@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="scss/index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <title>Portfolio Website</title>
+</head>
+
+<body>
+    <div class="scrollToTop">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar defaultMargin">
+        <div class="brand__container">
+            <div class="brand">
+                <h2>Web Developer</h2>
+            </div>
+            <div class="toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+        <div class="links">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio </a></li>
+                <li><a href="#services">Services</a></li>
+                <li><i class="fas fa-search"></i></li>
+                <li><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
+                <button><i class="far fa-id-card"></i> Contact </button>
+            </ul>
+        </div>
+    </nav>
+    <div class="responsive__navbar">
+        <div class="brand">
+            <h2>Web Developer</h2>
+        </div>
+        <div class="links">
+            <ul>
+                <li class="nav__link"><a href="#home">Home</a></li>
+                <li class="nav__link"><a href="#skills">Skills</a></li>
+                <li class="nav__link"><a href="#portfolio">Portfolio</a></li>
+                <li class="nav__link"><a href="#services">Services</a></li>
+                <ul>
+                    <li class="nav__link"><i class="fas fa-search"></i></li>
+                    <li class="nav__link"><i class="fab fa-twitter"></i></li>
+                    <li class="nav__link"><i class="fab fa-instagram"></i></li>
+                </ul>
+                <button class="nav__link" onclick="">
+            <i class="fas fa-address-book"></i> Contact 
+          </button>
+            </ul>
+        </div>
+    </div>
+    <section class="hero defaultMargin" id="home">
+        <div class="content">
+            <div class="title">
+                <h1>Hello Guys!</h1>
+                <h1>I'm Maribel.</h1>
+            </div>
+            <button><i class="far fa-hand-point-right"></i> Get Started</button>
+        </div>
+        <div class="image">
+            <img src="./assets/user.jpg" alt="" />
+        </div>
+    </section>
+    <div class="spring right" id="spring1">
+        <div class="coil"></div>
+        <div class="bar gradient"></div>
+    </div>
+    <section class="about">
+        <div class="title__container">
+            <h2>About Me</h2>
+            <p>
+                Get to know more about me click the button below.
+            </p>
+            <div class="cv-btn">
+                <br>
+                <a href="https://drive.google.com/file/d/1LD_TTJ51-7G9FP_i-D-0N48_IrbYyvgt/view?usp=sharing" download><button class="fa fa-download"><i>View CV</i></button></a>
+            </div>
+            <div class="certificate-btn">
+                <br>
+                <a href="https://drive.google.com/file/d/12WezlFq7y2oc8iCXL20_LAX0QwmsdOHA/view?usp=sharing" download><button class="fa fa-download"><i>View Certificate</i></button></a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src="assets/img.jpg" alt="" />
+            </div>
+    </section>
+    <div class="spring" id="springL1">
+        <div class="coil"></div>
+        <div class="bar gradient"></div>
+    </div>
+    <section class="skills defaultMargin" id="skills">
+        <div class="title__container">
+            <h2>Main Skills</h2>
+            <p>
+                This brings us closer to our client's projects with much more confidence and commitment.
+            </p>
+        </div>
+        <div class="content">
+            <div class="skill">
+                <div class="container">
+                    <div class="circular">
+                        <div class="inner"></div>
+                        <div class="number">60%</div>
+                        <div class="circle">
+                            <div class="bar left">
+                                <div class="progress"></div>
+                            </div>
+                            <div class="bar right">
+                                <div class="progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3>C#</h3>
+            </div>
+            <div class="skill">
+                <div class="container two">
+                    <div class="circular">
+                        <div class="inner"></div>
+                        <div class="number">50%</div>
+                        <div class="circle">
+                            <div class="bar left">
+                                <div class="progress"></div>
+                            </div>
+                            <div class="bar right">
+                                <div class="progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3>JAVA</h3>
+            </div>
+            <div class="skill">
+                <div class="container three">
+                    <div class="circular">
+                        <div class="inner"></div>
+                        <div class="number">70%</div>
+                        <div class="circle">
+                            <div class="bar left">
+                                <div class="progress"></div>
+                            </div>
+                            <div class="bar right">
+                                <div class="progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3>My SQL</h3>
+            </div>
+            <div class="skill">
+                <div class="container three">
+                    <div class="circular">
+                        <div class="inner"></div>
+                        <div class="number">50%</div>
+                        <div class="circle">
+                            <div class="bar left">
+                                <div class="progress"></div>
+                            </div>
+                            <div class="bar right">
+                                <div class="progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3>Python</h3>
+            </div>
+            <div class="skill">
+                <div class="container four">
+                    <div class="circular">
+                        <div class="inner"></div>
+                        <div class="number">60%</div>
+                        <div class="circle">
+                            <div class="bar left">
+                                <div class="progress"></div>
+                            </div>
+                            <div class="bar right">
+                                <div class="progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3>HTML</h3>
+            </div>
+        </div>
+    </section>
+    <div class="spring right" id="spring2">
+        <div class="coil"></div>
+        <div class="bar gradient"></div>
+    </div>
+    <section class="portfolio defaultMargin" id="portfolio">
+        <div class="title__container">
+            <h2>Portfolio</h2>
+            <p>We have already built amazing things for our customers.</p>
+        </div>
+        <div class="container">
+            <div class="design">
+                <div class="background"></div>
+                <div class="portfolio__container">
+                    <h3>Cisco</h3>
+                    <p>An impressive cisco project.</p>
+                    <div class="image">
+                        <img src="./assets/Cisco packet tracer thesis project.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__container">
+                <h3>Cisco</h3>
+                <p>An impressive cisco project.</p>
+                <div class="image">
+                    <img src="./assets/cisco1.jpg" alt="" />
+                </div>
+            </div>
+            <div class="design right">
+                <div class="background"></div>
+                <div class="portfolio__container">
+                    <h3>Collab Project</h3>
+                    <p>An impressive collab project Contact Tracing App.</p>
+                    <div class="image">
+                        <img src="./assets/project.jpg" alt="" />
+                    </div>
+                    <div class="project-btn">
+                        <br>
+                        <a href="https://drive.google.com/file/d/1LrEQa_H3v06EEcJ-qERVSy-yZQs8z8_6/view?usp=sharing" download><button class="fa fa-download"><i>View project</i></button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="spring" id="springL2">
+        <div class="coil"></div>
+        <div class="bar gradient"></div>
+    </div>
+    <section class="services defaultMargin" id="services">
+        <div class="title__container">
+            <h2>Our Services</h2>
+            <p>Focused on results we seek to raise the level of our customers.</p>
+        </div>
+        <div class="container">
+            <div class="design">
+                <div class="background"></div>
+                <div class="service">
+                    <i class="fa-brands fa-java"></i>
+                    <h3>Java Programming</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    </p>
+                </div>
+            </div>
+            <div class="service">
+                <i class="fas fa-shopping-cart"></i>
+                <h3>E-Commerce</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </p>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-mobile-alt"></i>
+                <h3>Mobile Apps</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </p>
+            </div>
+            <div class="service">
+                <i class="fas fa-layer-group"></i>
+                <h3>Web Application</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </p>
+            </div>
+            <div class="service">
+                <i class="fas fa-signal"></i>
+                <h3>Web Designing</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </p>
+            </div>
+            <div class="design right">
+                <div class="background"></div>
+                <div class="service">
+                    <i class="fas fa-ad"></i>
+                    <h3>Advertising</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="spring right" id="spring3">
+        <div class="coil"></div>
+        <div class="bar gradient"></div>
+    </div>
+    <section class="languages defaultMargin">
+        <div class="container">
+            <div class="language">
+                <img src="assets/image1.png" alt="" />
+            </div>
+            <div class="language">
+                <img src="assets/image2.png" alt="" />
+            </div>
+            <div class="language">
+                <img src="assets/image3.jpg" alt="" />
+            </div>
+            <div class="language">
+                <img src="assets/image4.png" alt="" />
+            </div>
+            <div class="language">
+                <img src="assets/image5.png" alt="" />
+            </div>
+        </div>
+    </section>
+    <div class="spring" id="springL3">
+        <div class="coil"></div>
+        <div class="bar gradient"></div>
+    </div>
+    <section class="contact defaultMargin">
+        <div class="left">
+            <div class="title">
+                <div class="bar"></div>
+                <h3>Let's Talk?</h3>
+                <p>
+                    Don't wait until tommorow.
+                </p>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Name" />
+                <input type="email" placeholder="Email" />
+                <input type="tel" placeholder="Number" />
+                <button>Contact</button>
+            </div>
+        </div>
+        <div class="right">
+            <img src="assets/img.jpg" alt="" />
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="section">
+            <div class="brand">
+                <h2>Portfolio.</h2>
+            </div>
+            <p>
+                Built to the smallest detail with a focus on usability and performance.
+            </p>
+            <ul class="social">
+                <li><i class="fab fa-facebook-f"></i>Maribel David</li>
+                <li><i class="fab fa-instagram"></i>david_maribel</li>
+                <li><i class="fab fa-twitter"></i>_Syginnn</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h3 class="title">Get in Touch</h3>
+            <ul>
+                <li><i class="fas fa-phone"></i><span>+63 9560417723</span></li>
+                <li>
+                    <i class="far fa-envelope-open"></i
+            ><span>maribengdavid17@gmail.com</span>
+          </li>
+          <li><i class="far fa-building"></i><span>#17 Mt.Pinatubo Makati City</span></li>
+            </ul>
+            <button>Send a Message</button>
+        </div>
+    </footer>
+    <div class="lower__footer">
+        <span>&copy; 2022 all rights reserved.</span>
+    </div>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/animation.js"></script>
+</body>
+
+</html>
